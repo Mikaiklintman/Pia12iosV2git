@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ABC59722AF8D69400BA5838 /* Pia12iosV2gitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC59712AF8D69400BA5838 /* Pia12iosV2gitApp.swift */; };
+		6ABC59742AF8D69400BA5838 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC59732AF8D69400BA5838 /* ContentView.swift */; };
+		6ABC59762AF8D69500BA5838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC59752AF8D69500BA5838 /* Assets.xcassets */; };
+		6ABC59792AF8D69500BA5838 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC59782AF8D69500BA5838 /* Preview Assets.xcassets */; };
+		6ABC59832AF8D69500BA5838 /* Pia12iosV2gitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC59822AF8D69500BA5838 /* Pia12iosV2gitTests.swift */; };
+		6ABC598D2AF8D69500BA5838 /* Pia12iosV2gitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC598C2AF8D69500BA5838 /* Pia12iosV2gitUITests.swift */; };
+		6ABC598F2AF8D69500BA5838 /* Pia12iosV2gitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC598E2AF8D69500BA5838 /* Pia12iosV2gitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ABC597F2AF8D69500BA5838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABC59662AF8D69400BA5838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABC596D2AF8D69400BA5838;
+			remoteInfo = Pia12iosV2git;
+		};
+		6ABC59892AF8D69500BA5838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABC59662AF8D69400BA5838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABC596D2AF8D69400BA5838;
+			remoteInfo = Pia12iosV2git;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6ABC596E2AF8D69400BA5838 /* Pia12iosV2git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pia12iosV2git.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABC59712AF8D69400BA5838 /* Pia12iosV2gitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pia12iosV2gitApp.swift; sourceTree = "<group>"; };
+		6ABC59732AF8D69400BA5838 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6ABC59752AF8D69500BA5838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ABC59782AF8D69500BA5838 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6ABC597E2AF8D69500BA5838 /* Pia12iosV2gitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pia12iosV2gitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABC59822AF8D69500BA5838 /* Pia12iosV2gitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pia12iosV2gitTests.swift; sourceTree = "<group>"; };
+		6ABC59882AF8D69500BA5838 /* Pia12iosV2gitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pia12iosV2gitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABC598C2AF8D69500BA5838 /* Pia12iosV2gitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pia12iosV2gitUITests.swift; sourceTree = "<group>"; };
+		6ABC598E2AF8D69500BA5838 /* Pia12iosV2gitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pia12iosV2gitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABC596B2AF8D69400BA5838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABC597B2AF8D69500BA5838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABC59852AF8D69500BA5838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ABC59652AF8D69400BA5838 = {
+			isa = PBXGroup;
+			children = (
+				6ABC59702AF8D69400BA5838 /* Pia12iosV2git */,
+				6ABC59812AF8D69500BA5838 /* Pia12iosV2gitTests */,
+				6ABC598B2AF8D69500BA5838 /* Pia12iosV2gitUITests */,
+				6ABC596F2AF8D69400BA5838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABC596F2AF8D69400BA5838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC596E2AF8D69400BA5838 /* Pia12iosV2git.app */,
+				6ABC597E2AF8D69500BA5838 /* Pia12iosV2gitTests.xctest */,
+				6ABC59882AF8D69500BA5838 /* Pia12iosV2gitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABC59702AF8D69400BA5838 /* Pia12iosV2git */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC59712AF8D69400BA5838 /* Pia12iosV2gitApp.swift */,
+				6ABC59732AF8D69400BA5838 /* ContentView.swift */,
+				6ABC59752AF8D69500BA5838 /* Assets.xcassets */,
+				6ABC59772AF8D69500BA5838 /* Preview Content */,
+			);
+			path = Pia12iosV2git;
+			sourceTree = "<group>";
+		};
+		6ABC59772AF8D69500BA5838 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC59782AF8D69500BA5838 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6ABC59812AF8D69500BA5838 /* Pia12iosV2gitTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC59822AF8D69500BA5838 /* Pia12iosV2gitTests.swift */,
+			);
+			path = Pia12iosV2gitTests;
+			sourceTree = "<group>";
+		};
+		6ABC598B2AF8D69500BA5838 /* Pia12iosV2gitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC598C2AF8D69500BA5838 /* Pia12iosV2gitUITests.swift */,
+				6ABC598E2AF8D69500BA5838 /* Pia12iosV2gitUITestsLaunchTests.swift */,
+			);
+			path = Pia12iosV2gitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ABC596D2AF8D69400BA5838 /* Pia12iosV2git */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABC59922AF8D69500BA5838 /* Build configuration list for PBXNativeTarget "Pia12iosV2git" */;
+			buildPhases = (
+				6ABC596A2AF8D69400BA5838 /* Sources */,
+				6ABC596B2AF8D69400BA5838 /* Frameworks */,
+				6ABC596C2AF8D69400BA5838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pia12iosV2git;
+			productName = Pia12iosV2git;
+			productReference = 6ABC596E2AF8D69400BA5838 /* Pia12iosV2git.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ABC597D2AF8D69500BA5838 /* Pia12iosV2gitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABC59952AF8D69500BA5838 /* Build configuration list for PBXNativeTarget "Pia12iosV2gitTests" */;
+			buildPhases = (
+				6ABC597A2AF8D69500BA5838 /* Sources */,
+				6ABC597B2AF8D69500BA5838 /* Frameworks */,
+				6ABC597C2AF8D69500BA5838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABC59802AF8D69500BA5838 /* PBXTargetDependency */,
+			);
+			name = Pia12iosV2gitTests;
+			productName = Pia12iosV2gitTests;
+			productReference = 6ABC597E2AF8D69500BA5838 /* Pia12iosV2gitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ABC59872AF8D69500BA5838 /* Pia12iosV2gitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABC59982AF8D69500BA5838 /* Build configuration list for PBXNativeTarget "Pia12iosV2gitUITests" */;
+			buildPhases = (
+				6ABC59842AF8D69500BA5838 /* Sources */,
+				6ABC59852AF8D69500BA5838 /* Frameworks */,
+				6ABC59862AF8D69500BA5838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABC598A2AF8D69500BA5838 /* PBXTargetDependency */,
+			);
+			name = Pia12iosV2gitUITests;
+			productName = Pia12iosV2gitUITests;
+			productReference = 6ABC59882AF8D69500BA5838 /* Pia12iosV2gitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ABC59662AF8D69400BA5838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6ABC596D2AF8D69400BA5838 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					6ABC597D2AF8D69500BA5838 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6ABC596D2AF8D69400BA5838;
+					};
+					6ABC59872AF8D69500BA5838 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6ABC596D2AF8D69400BA5838;
+					};
+				};
+			};
+			buildConfigurationList = 6ABC59692AF8D69400BA5838 /* Build configuration list for PBXProject "Pia12iosV2git" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ABC59652AF8D69400BA5838;
+			productRefGroup = 6ABC596F2AF8D69400BA5838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ABC596D2AF8D69400BA5838 /* Pia12iosV2git */,
+				6ABC597D2AF8D69500BA5838 /* Pia12iosV2gitTests */,
+				6ABC59872AF8D69500BA5838 /* Pia12iosV2gitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ABC596C2AF8D69400BA5838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABC59792AF8D69500BA5838 /* Preview Assets.xcassets in Resources */,
+				6ABC59762AF8D69500BA5838 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABC597C2AF8D69500BA5838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABC59862AF8D69500BA5838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ABC596A2AF8D69400BA5838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABC59742AF8D69400BA5838 /* ContentView.swift in Sources */,
+				6ABC59722AF8D69400BA5838 /* Pia12iosV2gitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABC597A2AF8D69500BA5838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABC59832AF8D69500BA5838 /* Pia12iosV2gitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABC59842AF8D69500BA5838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABC598D2AF8D69500BA5838 /* Pia12iosV2gitUITests.swift in Sources */,
+				6ABC598F2AF8D69500BA5838 /* Pia12iosV2gitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ABC59802AF8D69500BA5838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABC596D2AF8D69400BA5838 /* Pia12iosV2git */;
+			targetProxy = 6ABC597F2AF8D69500BA5838 /* PBXContainerItemProxy */;
+		};
+		6ABC598A2AF8D69500BA5838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABC596D2AF8D69400BA5838 /* Pia12iosV2git */;
+			targetProxy = 6ABC59892AF8D69500BA5838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6ABC59902AF8D69500BA5838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ABC59912AF8D69500BA5838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ABC59932AF8D69500BA5838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pia12iosV2git/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.MikaiKlintman.Pia12iosV2git;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ABC59942AF8D69500BA5838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pia12iosV2git/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.MikaiKlintman.Pia12iosV2git;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6ABC59962AF8D69500BA5838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.MikaiKlintman.Pia12iosV2gitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pia12iosV2git.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pia12iosV2git";
+			};
+			name = Debug;
+		};
+		6ABC59972AF8D69500BA5838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.MikaiKlintman.Pia12iosV2gitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pia12iosV2git.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pia12iosV2git";
+			};
+			name = Release;
+		};
+		6ABC59992AF8D69500BA5838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.MikaiKlintman.Pia12iosV2gitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pia12iosV2git;
+			};
+			name = Debug;
+		};
+		6ABC599A2AF8D69500BA5838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.MikaiKlintman.Pia12iosV2gitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pia12iosV2git;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ABC59692AF8D69400BA5838 /* Build configuration list for PBXProject "Pia12iosV2git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABC59902AF8D69500BA5838 /* Debug */,
+				6ABC59912AF8D69500BA5838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABC59922AF8D69500BA5838 /* Build configuration list for PBXNativeTarget "Pia12iosV2git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABC59932AF8D69500BA5838 /* Debug */,
+				6ABC59942AF8D69500BA5838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABC59952AF8D69500BA5838 /* Build configuration list for PBXNativeTarget "Pia12iosV2gitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABC59962AF8D69500BA5838 /* Debug */,
+				6ABC59972AF8D69500BA5838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABC59982AF8D69500BA5838 /* Build configuration list for PBXNativeTarget "Pia12iosV2gitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABC59992AF8D69500BA5838 /* Debug */,
+				6ABC599A2AF8D69500BA5838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ABC59662AF8D69400BA5838 /* Project object */;
+}
